@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+data/
+venv
+.vscode
+*.npz
+weights_model.*
+my_model
+checkpoint
+submission_script_sklearn.py
