@@ -26,7 +26,7 @@ Solution file: `submission.txt`
 2. Some numbers are impossible to decide because of the white patches, accuracy of over 99% is impossible.
 3. Voting algorithms reduce conflicts overall by about 1.5%, probably increasing accuracy. That being said because of time constraints this was not tested against the test data-set.
 4. Neural Networks take quite a long time to train, sometimes they don't even get fully trained.
-5. Surprisingly there is a 30% between the proposed solution and the original submission file. That is weird, as one would expect only a 25% discrepancy coming from a classifier with 75% accuracy on the test data-set vs ours at around 98-99% accuracy. We attribute the discrepancy to randomness and overfitting.
+5. Surprisingly there is a 30% difference between the proposed solution and the original submission file. That is weird, as one would expect only a 25% discrepancy coming from a classifier with 75% accuracy on the test data-set vs ours at around 98-99% accuracy. We attribute the discrepancy to randomness and overfitting.
 6. Even though the original problem says that other metrics aside from accuracy will be taken into account that information is not useful for the problem at hand.
    1. Misclassification of numbers based on their similarity is a thing. One cannot expect that 5 and 6 are not confused less than 1 and 6 given the noise in the problem.
    2. There isn't a worse misclassification between categories. Misclassifying a 1 and a 7 should have the same weight as misclassifying a 9 and a 2 (for example). We are not dealing with a sick patient kind of situation where we have to consider the balance between false negatives and false positives (etc.)
